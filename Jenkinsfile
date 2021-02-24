@@ -6,7 +6,7 @@ pipeline {
 
             image 'maven:3-alpine'  
 
-            args '-v /Users/[YOUR USERNAME]/Library/Jenkins/.m2:/root/.m2'  
+            args '-v /Users/jenkins/Library/Jenkins/.m2:/root/.m2'  
 
         } 
 
